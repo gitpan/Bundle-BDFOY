@@ -3,3 +3,4 @@ Makefile.PL
 lib/BDFOY.pm
 t/load.t
 t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)

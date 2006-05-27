@@ -1,4 +1,4 @@
-# $Id: pod.t,v 1.1 2002/09/02 21:07:04 comdog Exp $
+# $Id: pod.t,v 1.1 2002/09/03 10:28:55 comdog Exp $
 BEGIN {
 	use File::Find::Rule;
 	@files = File::Find::Rule->file()->name( '*.pm' )->in( 'blib/lib' );
