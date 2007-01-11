@@ -1,10 +1,11 @@
-# $Id: Makefile.PL,v 1.2 2002/11/25 18:50:09 comdog Exp $
+# $Id: Makefile.PL,v 1.3 2007/01/11 00:41:44 comdog Exp $
 use ExtUtils::MakeMaker;
 
 WriteMakefile
 	(
 	'NAME'      => 'Bundle::BDFOY',
 	'ABSTRACT'  => 'install all modules by BDFOY',
+	'LICENSE'       => 'perl',
 	'VERSION_FROM'   => 'lib/BDFOY.pm',
 	'PREREQ_PM' => {
 		'File::Find::Rule'      => '0',
